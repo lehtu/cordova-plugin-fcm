@@ -36,14 +36,15 @@ var PLATFORM = {
     },
     ANDROID: {
         dest: [
-            ANDROID_DIR + '/google-services.json'
+            ANDROID_DIR + '/google-services.json',
+            ANDROID_DIR + '/app/google-services.json',
         ],
         src: [
             'google-services.json',
             ANDROID_DIR + '/assets/www/google-services.json',
             'www/google-services.json'
         ],
-        stringsXml: ANDROID_DIR + '/res/values/strings.xml'
+        stringsXml: ANDROID_DIR + '/app/src/main/res/values/strings.xml'
     }
 };
 
